@@ -1,0 +1,79 @@
+"Чек-лист: Тестирование разделов сайта https://www.loom.com Главная страница, Use Cases, Pricing. Выполнил - Долгов И.А",,,,
+"Тестовое окружение: Google Chrom Версия 87.0.4280.88 (Официальная сборка), (64 бит) Windows 10 64-bit ",,,,
+Функциональное тестирование,,,,
+Гавная страница сайта https://www.loom.com,,,,
+№ ,Приоритет,Проверка,Результат,Комментарий
+1,Высокий,Выполнить вход на сайт https://www.loom.com/,Passed,"Сайт открывается, отоброжается корректоно"
+2,Высокий,Скроллинг* страницы сайта,Passed,"Скроллинг работает корректно, вверхние вкладки отсаются на месте, изоброжения неотстают "
+3,Средний,"Воиспроизведения звука на видео, на главное странице сайта",Failed,"Неудалось воиспрозвести звук на видно, которое находится на главное странице сайта"
+№,Приоритет,Проверка,Результат,Комментарий
+Навигационная панель на странице сайта https://www.loom.com/,,,,
+4,Высокий,Нажать на вкладку Customers ,Passed,Открывается страница сайта https://www.loom.com/customers 
+5,Высокий,Нажать на вкладку Use Caser  ,Passed,"Открываются подвкладки на выбор: Team Alignment, Sales, Engineering, Desing, Marketing, Product Management, Support"
+6,Высокий,Нажать на вкладку Pricing,Passed,Открывается страница сайта https://www.loom.com/pricing
+7,Высокий,Нажать на вкладку About us ,Passed,Открывается страница сайта https://www.loom.com/about-us
+8,Высокий,Нажать на вкладку Sing In ,Passed,Открывается страница сайта https://www.loom.com/login (Вылезает подсказка с возможностью залогинится на сайте)
+9,Высокий,Нажать на вкладку Get Loom for Free  ,Passed,"Открывается новая вкладка в браузере, с возможностью войти на сайте, с одного из трех аккаунтов (Google, Slack, Apple)"
+10,Средний,Скроллинг* медиа-блока,Passed,"Скроллинг работает корректно, медиа-блок не отстает, при скроллинге меняется позиция видео"
+№,Приоритет,Проверка,Результат,Комментарий
+Нижние вкладки на странице сайта https://www.loom.com/,,,,
+11,Средний ,"В разделе ""Product"" нажать вкладку: Pricing",Passed,Открывается страница сайта https://www.loom.com/pricing
+12,Средний ,"В разделе ""Product"" нажать вкладку: Screen Recorder",Passed,Открывается страница сайта https://www.loom.com/screen-recorder
+13,Средний ,"В разделе ""Product"" нажать вкладку: Customers",Passed,Открывается страница сайта https://www.loom.com/customers
+14,Средний,"В разделе ""Product"" нажать вкладку: Loom for Education",Passed,Открывается страница сайта https://www.loom.com/education
+15,Средний,"В разделе ""Use Cases"" нажать вкладку: Team Alignment",Passed,Открывается страница сайта https://www.loom.com/use-case/team-alignment
+16,Средний,"В разделе ""Use Cases"" нажать вкладку: Sales",Passed,Открывается старница сайта https://www.loom.com/use-case/sales
+17,Средний,"В разделе ""Use Cases"" нажать вкладку: Engineering",Passed,Открывается страница сайта https://www.loom.com/use-case/engineering 
+18,Средний,"В разделе ""Use Cases"" нажать вкладку: Design",Passed,Открывается страница сайта https://www.loom.com/use-case/design
+19,Средний,"В разделе ""Use Cases"" нажать вкладку: Marketing",Passed,Открывается страница сайта https://www.loom.com/use-case/marketing
+20,Средний,"В разделе ""Use Cases"" нажать вкладку: Product Management",Passed,Открывается страница сайта https://www.loom.com/use-case/product-management
+21,Средний,"В разделе ""Use Cases"" нажать вкладку: Support",Passed,Открывается страница сайта https://www.loom.com/use-case/support
+22,Средний,"В разделе ""Resources"" нажать вкладку Blog",Passed,Открывается страница сайта https://www.loom.com/blog
+23,Средний,"В разделе ""Resources"" нажать вкладку Help Center",Passed,Открывается старница сайта https://support.loom.com/hc/en-us
+24,Средний,"В разделе ""Resources"" нажать вкладку Status",Passed,Открывается страница сайта https://status.loom.com/
+25,Средний,"В разделе ""Resources"" нажать вкладку What’s New",Passed,Открывается страница сайта https://new.loom.com/
+26,Средний,"В разделе ""Resources"" нажать вкладку Roadmap",Passed,Открывается страница сайта https://portal.productboard.com/useloom/1-loom-s-product-roadmap/tabs/3-coming-soon
+27,Средний,"В разделе ""Downloads"" нажать вкладку Desktop App",Passed,Открывается страница сайта https://www.loom.com/download
+28,Средний,"В разделе ""Downloads"" нажать вкладку Chrome Extension",Passed,Открывается страница сайта https://chrome.google.com/webstore/detail/loom-for-chrome/liecbddmkiiihnedobmlmillhodjkdmb
+29,Средний,"В разделе ""Downloads"" нажать вкладку iOS App",Passed,Открывается страница сайта https://www.loom.com/mobile
+30,Средний,"В разделе ""Company"" нажать вкладку About Us",Passed,Открывается страница сайта https://www.loom.com/about-us
+31,Средний,"В разделе ""Company"" нажать вкладку Careers",Passed,Открывается страница сайта https://www.loom.com/careers
+32,Средний,"В разделе ""Company"" нажать вкладку Press",Passed,Открывается страница сайта https://www.loom.com/press
+"Вкладка раздела ""Use Cases"" ",,,,
+№,Приоритет,Проверка,Результат,Комментарий
+33,Средний,"Нажать на вкладку ""Use Cases"" и сделать скроллинг",Passed,"При скроллинге вверх/вниз, открывшиеся подвкладки остаются на месте."
+34,Высокий,"Нажать на вкладку логотипа сайта ""Loom""",Passed,Открывается главная страница сайта https://www.loom.com/
+35,Высокий,"Нажать на подвкладку ""Team Alignment""",Passed,Открывается главная страница сайта https://www.loom.com/use-case/team-alignment
+36,Высокий,"Нажать на подвкладку ""Sales""",Passed,Открывается главная страница сайта https://www.loom.com/use-case/sales
+37,Высокий,"Нажать на подвкладку ""Engineering""",Passed,Открывается главная страница сайта https://www.loom.com/use-case/engineering
+38,Высокий,"Нажать на подвкладку ""Design""",Passed,Открывается главная страница сайта https://www.loom.com/use-case/design
+39,Высокий,"Нажать на подвкладку ""Marketing""",Passed,Открывается главная страница сайта https://www.loom.com/use-case/marketing
+40,Высокий,"Нажать на подвкладку ""Product Management""",Passed,Открывается главная страница сайта https://www.loom.com/use-case/product-management
+41,Высокий,"Нажать на подвкладку ""Support""",Passed,Открывается главная страница сайта https://www.loom.com/use-case/support
+Вкладка раздела Pricing https://www.loom.com/pricing,,,,
+№,Приоритет,Проверка,Результат,Комментарий
+42,Высокий,Скроллинг страницы вверх/вниз,Passed,"При скроллинге, вверхние вкладки остаются на месте, страница скроллится корректно"
+43,Высокий,"Нажать на вкладки в правом вверхнем углу:
+-Customers 
+-Pricing
+-About Us
+-Sing In
+-Get Loom for Free",Passed,"Открывается соответствующая страница каждой вкладке
+- https://www.loom.com/customers
+- https://www.loom.com/pricing
+- https://www.loom.com/about-us
+- https://www.loom.com/login
+- https://www.loom.com/signup
+"
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+Итоги проверки,,,,
+Проведенного всего 43 теста,,,,
+Passed,,42,,
+Failed,,1,,
+"Скроллинг* - форма представления информации, при которой содержимое (текст, изображение) 
+двигается в вертикальном или горизонтальном направлении. 
+Таким образом, скроллинг не изменяет содержимое, но передвигает «камеру».",,,,
